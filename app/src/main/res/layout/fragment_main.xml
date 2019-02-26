@@ -29,7 +29,7 @@
         <!--Password-->
         <EditText
             android:inputType="textPassword"
-            android:hint="Password"
+            android:hint="Password :"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -41,6 +41,9 @@
 
         <!--Register-->
         <TextView
+            android:clickable="true"
+            android:id="@+id/txtRegister"
+            android:textColor="@color/colorAccent"
             android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
             android:textSize="18sp"
